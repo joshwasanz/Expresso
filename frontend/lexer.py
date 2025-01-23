@@ -25,7 +25,8 @@ class Token:
         self.type = type
 
     def __repr__(self):
-        return f"Token (value = '{self.value}', type = {self.type})"
+        # return f"Token (value = '{self.value}', type = {self.type})"
+        return self.value
     
 #utility functions
 
